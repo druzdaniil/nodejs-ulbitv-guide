@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "process-start": "node --env-file=.env ./src/process.js",
-    "path-start": "node --env-file=.env ./src/path.js"
+    "path-start": "node --env-file=.env ./src/path.js",
+    "file-system-start": "node --env-file=.env ./src/file-system.js"
   },
   "devDependencies": {
     "@types/node": "^26.6.5"
